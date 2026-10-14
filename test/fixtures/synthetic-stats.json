@@ -1,0 +1,7 @@
+[
+  {"seat":0,"accepted":42,"rateBps":9000,"turns":50,"hoursTenths":123,"outdated":false},
+  {"seat":1,"accepted":0,"rateBps":0,"turns":0,"hoursTenths":0,"outdated":true},
+  {"seat":777,"accepted":1000,"rateBps":7500,"turns":2000,"hoursTenths":360,"outdated":false},
+  {"seat":1999,"accepted":0,"rateBps":0,"turns":0,"hoursTenths":0,"outdated":true},
+  {"seat":33,"accepted":4294967295,"rateBps":10000,"turns":4294967295,"hoursTenths":4294967295,"outdated":true}
+]

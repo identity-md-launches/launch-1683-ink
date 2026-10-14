@@ -1,0 +1,29 @@
+{
+  "project": "Ink & Inference",
+  "purpose": "BUILD ONLY: symbolic constructor reference, not a launch or transaction manifest",
+  "compiler": "0.8.26",
+  "evmVersion": "cancun",
+  "optimizerRuns": 200,
+  "viaIR": true,
+  "bytecodeHash": "none",
+  "contracts": [
+    {"name":"InkPortraits","arguments":[{"name":"initialOwner","type":"address","value":"$owner"}]},
+    {"name":"InkVault","arguments":[{"name":"initialOwner","type":"address","value":"$owner"},{"name":"portraits_","type":"address","value":"$InkPortraits"}]},
+    {"name":"InkLiquidity","arguments":[{"name":"initialOwner","type":"address","value":"$owner"}]},
+    {"name":"InkHook","create2Required":true,"hookFlags":"0x30c4","arguments":[
+      {"name":"manager_","type":"address","value":"$verifiedEthereumV4PoolManager"},
+      {"name":"portraits_","type":"address","value":"$InkPortraits"},
+      {"name":"vault_","type":"address","value":"$InkVault"},
+      {"name":"liquidity_","type":"address","value":"$InkLiquidity"},
+      {"name":"ink_","type":"address","value":"$externalPlainTransferINK"},
+      {"name":"imd_","type":"address","value":"$verifiedEthereumIMD"},
+      {"name":"treasury_","type":"address","value":"$imdTreasury"},
+      {"name":"router_","type":"address","value":"$verifiedCompatibleUniversalRouter"},
+      {"name":"fee_","type":"uint24","value":"$approvedLPFeePips"},
+      {"name":"spacing_","type":"int24","value":"$approvedTickSpacing"}
+    ]},
+    {"name":"InkRenderer","arguments":[{"name":"initialOwner","type":"address","value":"$owner"}]}
+  ],
+  "externalTokenContext": {"name":"INK","symbol":"INK","decimals":18,"totalSupplyTokens":"1000000000","productionTokenIncluded":false},
+  "unresolvedProductionInputs": ["explicit owner", "external INK", "identity.md seat ERC721", "Ethereum IMD", "IMD treasury", "verified official v4 manager and PositionManager", "verified compatible Universal Router", "LP fee and tick spacing", "initial price and release ticks", "complete private snapshot", "claim start", "original JavaScript and preview", "CREATE2 deployer and mined salt"]
+}

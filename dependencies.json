@@ -1,0 +1,42 @@
+{
+  "openzeppelin-contracts": {
+    "repository": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+    "commit": "69c8def5f222ff96f2b5beff05dfba996368aa79"
+  },
+  "forge-std": {
+    "repository": "https://github.com/foundry-rs/forge-std",
+    "commit": "1eea5bae12ae557d589f9f0f0edae2faa47cb262"
+  },
+  "v4-periphery": {
+    "repository": "https://github.com/Uniswap/v4-periphery",
+    "commit": "444c526b77d804590f0d7bc5a481af5a3277c952"
+  },
+  "universal-router": {
+    "repository": "https://github.com/Uniswap/universal-router",
+    "commit": "3663f6db6e2fe121753cd2d899699c2dc75dca86"
+  },
+  "permit2": {
+    "repository": "https://github.com/Uniswap/permit2",
+    "commit": "cc56ad0f3439c502c246fc5cfcc3db92bb8b7219"
+  },
+  "solmate": {
+    "repository": "https://github.com/transmissions11/solmate",
+    "commit": "8d910d876f51c3b2585c9109409d601f600e68e1"
+  },
+  "v3-periphery": {
+    "repository": "https://github.com/Uniswap/v3-periphery",
+    "commit": "b325bb0905d922ae61fcc7df85ee802e8df5e96c"
+  },
+  "v4-core": {
+    "repository": "https://github.com/Uniswap/v4-core",
+    "commit": "a7cf038cd568801a79a9b4cf92cd5b52c95c8585"
+  },
+  "v3-core": {
+    "repository": "https://github.com/Uniswap/v3-core",
+    "commit": "ef64f51d0f0dca5346c903484f3e6a771dd69d59"
+  },
+  "v2-core": {
+    "repository": "https://github.com/Uniswap/v2-core",
+    "commit": "816075049f811f1b061bca81d5d040b96f4c07eb"
+  }
+}

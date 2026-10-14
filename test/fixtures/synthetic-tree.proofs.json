@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "root": "0xdfca10f37bddc47df903cf454ae90e8799de3df4dbb146ca91b56e354731430b",
+  "proofs": [
+    [
+      "0xf623821c03e82fe8f167776543fef5fe12e915d8de39ed5b0363f5c11cefc6ec",
+      "0x1e383d77bbdef2cce3e3f53fe922afaf6d88573125063a20b10c6fdce3865034"
+    ],
+    [
+      "0x1a402794cce0d8b2261dfb7a9c206eb6cc1e095e5787e5c8692139902e452468",
+      "0xe5553e2f0dcfc323b6f6eb7d2ee8bbbf4d828797b1e05e6073f26e4760b6d8d0",
+      "0x1e383d77bbdef2cce3e3f53fe922afaf6d88573125063a20b10c6fdce3865034"
+    ],
+    [
+      "0x32ac2aa1e4bd9ebdab2308eaf9a4a82d66c8da4a3eb08c1391c81bcd80bcd033",
+      "0x1bff10d47dedb582b2463327d73edcd822a2cfc4eb2d0414eb34c66813d76989"
+    ],
+    [
+      "0x813843a15d202f7a4bb039acf7d7e532cb4d23a4f4bc96ab50379cfe6bcad3f8",
+      "0x1bff10d47dedb582b2463327d73edcd822a2cfc4eb2d0414eb34c66813d76989"
+    ],
+    [
+      "0x0566ed80c5c298cfed67d2f7e888a5e5e242b23808a7a43e34fc2a73ce9e9c3b",
+      "0xe5553e2f0dcfc323b6f6eb7d2ee8bbbf4d828797b1e05e6073f26e4760b6d8d0",
+      "0x1e383d77bbdef2cce3e3f53fe922afaf6d88573125063a20b10c6fdce3865034"
+    ]
+  ]
+}
